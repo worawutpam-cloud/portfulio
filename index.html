@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone แลกเงิน ไม่ต้องวางเครื่อง - บริการดีๆ</title>
+    <style>
+        /* สไตล์หลักของหน้าเว็บ */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center; /* จัดให้อยู่ตรงกลางแนวนอน */
+            flex-direction: column; /* จัดให้อยู่ในแนวตั้ง */
+            align-items: center; 
+            min-height: 100vh; /* ความสูงขั้นต่ำเต็มหน้าจอ */
+        }
+
+        /* กล่องคอนเทนเนอร์สำหรับจำกัดความกว้างและจัดวาง */
+        .container {
+            width: 100%;
+            max-width: 650px; /* ปรับความกว้างสูงสุดให้เหมาะกับรูปนี้ */
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* จัดเนื้อหาให้อยู่ตรงกลาง */
+        }
+
+        /* ส่วนสำหรับรูปภาพ */
+        .image-container {
+            width: 100%; 
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px; /* เพิ่มระยะห่างด้านล่างรูปภาพ */
+        }
+
+        /* การปรับขนาดรูปภาพ */
+        .image-container img {
+            width: 100%; /* ทำให้รูปภาพกว้างเต็มพื้นที่ image-container */
+            height: auto; /* รักษาสัดส่วนของรูปภาพ */
+            display: block;
+            border-radius: 8px;
+        }
+
+        /* ส่วนของปุ่ม LINE และ Facebook */
+        .button-group {
+            margin-top: 20px; /* ปรับระยะห่างด้านบนของกลุ่มปุ่ม */
+            display: flex;
+            flex-direction: column; /* จัดปุ่มให้อยู่ในแนวตั้ง */
+            gap: 15px; /* ระยะห่างระหว่างปุ่ม */
+            width: 100%;
+            max-width: 350px; /* กำหนดความกว้างสูงสุดของกลุ่มปุ่ม */
+        }
+
+        .button-group a {
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px 20px;
+            border-radius: 40px; /* ทำให้ปุ่มโค้งมนมากขึ้น */
+            font-weight: bold;
+            color: #fff;
+            transition: opacity 0.3s;
+            font-size: 1.2em;
+        }
+
+        .button-group a:hover {
+            opacity: 0.85;
+        }
+
+        .line-button {
+            background-color: #00C300; /* สีเขียว LINE ที่ชัดเจน */
+        }
+
+        .facebook-button {
+            background-color: #1877F2; /* สีน้ำเงิน Facebook */
+        }
+        
+        .icon {
+            margin-right: 10px;
+            font-size: 1.3em;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>ไอโฟนแลกเงิน</h1>
+        <hr style="width: 50%; border-color: #eee; margin-bottom: 30px;">
+
+        <div class="image-container">
+            <img src="images/72971c.png" alt="ไอโฟนแลกเงิน บริการดีๆ">
+        </div>
+
+        <div class="button-group">
+            <a href="URL_LINE_ของคุณ" class="line-button" target="_blank">
+                <span class="icon">📱</span> ติดต่อสอบถามทาง LINE
+            </a>
+            <a href="URL_FACEBOOK_ของคุณ" class="facebook-button" target="_blank">
+                <span class="icon">🔵</span> ติดต่อสอบถามทาง Facebook
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
